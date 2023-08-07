@@ -15,22 +15,78 @@ body{
 
 #stripe1{
   background: linear-gradient( to bottom, rgb(50, 50, 50), rgba(0,0,0,.1));
-  margin-left: 65%;
+  margin-left: 74.98%;
   opacity: .5;
 }
 
 #stripe2{
   background: linear-gradient( to bottom, rgb(30, 30, 30), rgba(0,0,0,.1));
-  margin-left: 71.5%;
+  margin-left: 81.5%;
   opacity: .6;
 }
 
 #stripe3{
   background: linear-gradient( to bottom, rgb(0,0,0), rgba(0,0,0,.1));
-  margin-left: 78%;
+  margin-left: 88%;
   opacity: .7;
 }
 
 .invisible{
   opacity: 0;
+}
+
+.dot{
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  border-radius: 50%;
+
+}
+
+#blk-dt{
+  background-color: black;
+  margin-left: 1500px;
+  margin-top: 250px;
+  border: 1px solid rgb(255, 255, 255) ;
+}
+
+#gry-dt{
+  background-color: rgb(126, 126, 126);
+  margin-left: 1500px;
+  margin-top: 275px;
+  border: 1px solid rgb(15, 15, 15) ;
+}
+
+#wht-dt{
+  background-color: white;
+  margin-left: 1500px;
+  margin-top: 300px;
+  border: 1px solid rgb(126, 126, 126) ;
+}
+
+.para{
+  position: absolute;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 520px;
+  margin-left: 73px;
+  font-size: larger;
+  background-color: rgba(126, 126, 126, 0.589);
+  border-radius: 25px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+}
+
+
+
+.btn{
+  background: transparent;
+  border: 3px solid white;
+  width: 20%;
+  height: 20%;
+}
+
+.btn-wrd{
+  color: whitesmoke;
 }
